@@ -15,8 +15,6 @@ CREATE TABLE Students(
 ''')
 
 conn.commit()
-c.execute("SELECT sql FROM sqlite_master WHERE type='table' AND name='Students'")
-print("Table schema:")
 
 # Close connection
 c.close()
